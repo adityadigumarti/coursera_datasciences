@@ -1,0 +1,36 @@
+package com.kaggle.domain
+
+class MyMain {
+
+	static main(args) {
+		
+		
+		String s = '''ssss,ssss,sss, "ssss, ssss", jhsdhjksa, sjdsjhd, "ssss, qoikds, wlewe", sss, wowewk'''
+		
+		s.findAll(/"(.*?)"/).each {
+			s = s.replaceAll(it, it.replace(',', ''))
+		}
+		
+		
+		
+//		def passengers = []
+//		
+//		def train = new File('/Users/kdigu79/development/datasciences/assignments/kaggle/workspace/Titanic/src/com/kaggle/domain/train.csv')
+//		int count = 0;
+//		
+//		train.eachLine {
+//			count++;
+//			if (count == 1) {
+//				return;
+//			}
+//		
+//			passengers.add(new TitanicPassenger(it))
+//		
+//		}
+//		
+//		
+//		print passengers
+//		
+	}
+
+}

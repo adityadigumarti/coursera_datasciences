@@ -1,0 +1,21 @@
+INDEX VERSION 1.127+/Users/kdigu79/development/datasciences/assignments/kaggle/workspace/.metadata/.plugins/org.eclipse.jdt.core
+3437862762.index
+3765020915.index
+1993031862.index
+960755407.index
+4238209716.index
+1271342938.index
+2540607589.index
+2662610382.index
+269544682.index
+1415315325.index
+2496118964.index
+3100138710.index
+1988056334.index
+4055667518.index
+1288846377.index
+2979017272.index
+2475699157.index
+604729059.index
+517594600.index
+4065220191.index

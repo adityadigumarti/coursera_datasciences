@@ -1,0 +1,10 @@
+package com.kaggle.domain
+
+class MyMain {
+
+	static main(args) {
+		TitanicPassenger p = new TitanicPassenger() 
+		
+	}
+
+}

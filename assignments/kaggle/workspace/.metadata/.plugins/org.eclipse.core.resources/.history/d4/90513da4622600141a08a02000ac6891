@@ -1,0 +1,22 @@
+package com.kaggle.domain
+
+class TitanicPassenger {
+	
+	int id
+	boolean survived
+	int pClass
+	int sex
+	int age
+	int numSiblingsSpouses
+	int numParentsChildren
+	float fare
+	int stationEmbarked
+	
+	
+	TitanicPassenger(String csv) {
+		def csv = new File('train.csv')
+	}
+	
+	
+
+}

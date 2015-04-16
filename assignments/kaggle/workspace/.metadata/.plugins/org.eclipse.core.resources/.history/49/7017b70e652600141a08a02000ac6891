@@ -1,0 +1,34 @@
+package com.kaggle.domain
+
+class TitanicPassenger {
+	
+//	int id
+//	boolean survived
+//	int pClass
+//	int sex
+//	int age
+//	int numSiblingsSpouses
+//	int numParentsChildren
+//	float fare
+//	int stationEmbarked
+	
+	
+	public TitanicPassenger(String csv) {
+		def train = new File('/Users/kdigu79/development/datasciences/assignments/kaggle/workspace/Titanic/src/com/kaggle/domain/train.csv')
+		int count = 1;
+		
+		train.eachLine {
+			count++;
+			if (count == 1) {
+				return;
+			}
+			
+			println it
+		}
+		
+		
+	}
+	
+	
+
+}

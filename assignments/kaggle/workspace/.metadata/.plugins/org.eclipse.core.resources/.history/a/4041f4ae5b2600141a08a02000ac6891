@@ -1,0 +1,13 @@
+package com.kaggle.domain;
+
+public class MyMain {
+
+	public static void main(String[] args) {
+		String s= /1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S/
+				
+				
+				
+
+	}
+
+}

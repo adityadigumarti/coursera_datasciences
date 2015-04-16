@@ -1,0 +1,56 @@
+package com.kaggle.domain
+
+class TitanicPassenger {
+	
+	int id
+	boolean survived
+	int pClass
+	int sex
+	int age
+	int numSiblingsSpouses
+	int numParentsChildren
+	float fare
+	int stationEmbarked
+	
+	
+	public TitanicPassenger(String csv) {
+		def train = new File('/Users/kdigu79/development/datasciences/assignments/kaggle/workspace/Titanic/src/com/kaggle/domain/train.csv')
+		int count = 1;
+		
+		train.eachLine {
+			count++;
+			if (count == 1) {
+				return;
+			}
+			
+			def array = csv.split(',')
+			
+			
+			this.id = array[0].toInteger()
+			this.survived = array[1].toBoolean()
+			this.sex = array[4]
+			this.pClass = array[2];
+			this.age = array[5].toInteger()
+			this.numSiblingsSpouses = array[6].toInteger()
+			this.numParentsChildren = array[7].toInteger()
+			this.fare = array[9].toFloat()
+			this.stationEmbarked = array[11]
+		}
+		
+		
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "TitanicPassenger [id=" + id + ", survived=" + survived
+				+ ", pClass=" + pClass + ", sex=" + sex + ", age=" + age
+				+ ", numSiblingsSpouses=" + numSiblingsSpouses
+				+ ", numParentsChildren=" + numParentsChildren + ", fare="
+				+ fare + ", stationEmbarked=" + stationEmbarked + "]";
+	}
+	
+	
+
+}

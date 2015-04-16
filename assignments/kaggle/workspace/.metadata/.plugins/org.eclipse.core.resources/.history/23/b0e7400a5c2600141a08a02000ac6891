@@ -1,0 +1,12 @@
+package com.kaggle.domain
+
+class MyMain {
+
+	static main(args) {
+		String csv = "s,s,w,e,,rt,t,y,y"
+		
+		print csv.split(~/foo/)
+		
+	}
+
+}

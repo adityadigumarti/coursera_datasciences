@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.codehaus.groovy.eclipse.groovyScriptLaunchConfiguration">
+<stringAttribute key="org.codehaus.groovy.eclipse.launch.runType" value="com.kaggle.domain.MyMain"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="/Users/kdigu79/development/datasciences/assignments/kaggle/workspace/Titanic/bin"/>
+<listEntry value="/Users/kdigu79/Downloads/ggts-bundle/ggts-3.6.0.RELEASE/plugins/org.codehaus.groovy_2.3.3.xx-201407071925-e44/lib/groovy-all-2.3.3.jar"/>
+<listEntry value="/Users/kdigu79/Downloads/ggts-bundle/ggts-3.6.0.RELEASE/plugins/org.codehaus.groovy_2.3.3.xx-201407071925-e44/lib/bsf-2.4.0.jar"/>
+<listEntry value="/Users/kdigu79/Downloads/ggts-bundle/ggts-3.6.0.RELEASE/plugins/org.codehaus.groovy_2.3.3.xx-201407071925-e44/lib/ivy-2.3.0-sources.jar"/>
+<listEntry value="/Users/kdigu79/Downloads/ggts-bundle/ggts-3.6.0.RELEASE/plugins/org.codehaus.groovy_2.3.3.xx-201407071925-e44/lib/ivy-2.3.0.jar"/>
+<listEntry value="/Users/kdigu79/Downloads/ggts-bundle/ggts-3.6.0.RELEASE/plugins/org.codehaus.groovy_2.3.3.xx-201407071925-e44/lib/servlet-api-2.4.jar"/>
+<listEntry value="/Users/kdigu79/.groovy/greclipse/global_dsld_support"/>
+<listEntry value="/Users/kdigu79/Downloads/ggts-bundle/ggts-3.6.0.RELEASE/plugins/org.codehaus.groovy_2.3.3.xx-201407071925-e44/plugin_dsld_support/"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.codehaus.groovy.tools.GroovyStarter"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--classpath &quot;${workspace_loc:/Titanic}/src:${workspace_loc:/Titanic}/bin&quot; --main groovy.ui.GroovyMain &quot;${resource_loc:/Titanic/src/com/kaggle/domain/MyMain.groovy}&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Titanic"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=" -Dgroovy.home=&quot;${groovy_home}&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:/Titanic}"/>
+</launchConfiguration>

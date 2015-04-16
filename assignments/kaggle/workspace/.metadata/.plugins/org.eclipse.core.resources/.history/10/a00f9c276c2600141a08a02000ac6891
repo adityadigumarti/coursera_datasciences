@@ -1,0 +1,35 @@
+package com.kaggle.domain
+
+class MyMain {
+
+	static main(args) {
+		
+		def passengers = []
+		
+		def train = new File('/Users/kdigu79/development/datasciences/assignments/kaggle/workspace/Titanic/src/com/kaggle/domain/train.csv')
+		int count = 0;
+		
+		train.eachLine {
+			count++;
+			if (count == 1) {
+				return;
+			}
+		
+			passengers.add(new TitanicPassenger(replaceCommasInName(it)))
+		
+		}
+		
+		
+		print passengers
+		
+	}
+	
+	static String replaceCommasInName(String s) {
+		s.findAll(/"(.*?)"/).each {
+			s = s.replaceAll(it, it.replace(',', ''))
+		}
+		
+		s
+	}
+
+}
